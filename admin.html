@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+    <title>Admin Panel</title> 
+    <link rel="stylesheet" type="text/css" href="css/admin.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Include the same style.css -->
+</head> 
+
+<body> 
+    <header>
+        <div class="container">
+            <div class="logo">Money Management</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="budget.html">Budget</a></li>
+                    <li><a href="insights.html">Insights</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><button id="theme-btn">Theme</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container"> 
+        <h1>Admin Panel</h1> 
+        <table id="transaction-list"> 
+            <thead> 
+                <tr> 
+                    <th>Expense Name</th> 
+                    <th>Amount</th> 
+                    <th>Timestamp</th> 
+                    <th>Action</th> 
+                </tr> 
+            </thead> 
+            <tbody id="expense-list"></tbody> 
+        </table> 
+    </div> 
+
+    <footer>
+        © Created by Vikas Moond (229310091) for Semester 4 Project
+    </footer>
+    <script src="javascript/admin.js"></script> 
+</body> 
+
+</html>

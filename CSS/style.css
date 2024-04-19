@@ -1,0 +1,233 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Set body background color */
+    color: #000000; /* Set text color */
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%; /* Width of the sidebar */
+    background-color: #FFFFFF; /* Set sidebar background color */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.logo {
+    font-family: cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000; /* Set logo text color */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000000; /* Set button text color */
+    background-color: #FFFFFF; /* Set button background color */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    display: block;
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.menu li a:hover {
+    background-color: #000000; /* Invert button background color on hover */
+    color: #FFFFFF; /* Invert button text color on hover */
+}
+
+/* Content styles */
+.content {
+    margin-left: 20%; /* Width of the sidebar */
+    padding: 20px;
+}
+
+/* Transaction Details container styles */
+.Transaction_Details,
+.Budget,
+.Insights,
+.Account {
+    border-radius: 10px;
+    background-color: #FFFFFF; /* Set container background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    text-align: center; /* Center the content */
+    border: 5px solid #FF00FF; /* Add a silly border color */
+    border-image: url('https://media.giphy.com/media/l0ExkyvixRVq5vJFe/giphy.gif') 30 stretch; /* Add wavy border image */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Transaction form styles */
+#transaction-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Add space between form and table */
+}
+
+#transaction-name,
+#transaction-amount {
+    width: calc(33% - 5px); /* Set width */
+    padding: 12px; /* Increase padding */
+    border: 0.5px solid #000000; /* Add border */
+    border-radius: 10px; /* Add border radius */
+    margin-right: 5px; /* Add margin */
+}
+
+#transaction-name:focus,
+#transaction-amount:focus {
+    outline: none; /* Remove outline */
+}
+
+/* Transaction table styles */
+.transaction-table table {
+    border-collapse: collapse; /* Remove border spacing */
+    width: 100%;
+}
+
+.transaction-table th, .transaction-table td {
+    border: 0.5px solid #000000; /* Add border */
+    padding: 8px; /* Add padding */
+}
+
+.transaction-table th {
+    background-color: #FFFFFF; /* Set header background color */
+}
+
+/* Transaction button styles */
+#transaction-form button {
+    width: calc(33% - 5px); /* Set width */
+    padding: 12px; /* Increase padding */
+    border: 0.5px solid #000000; /* Add border */
+    border-radius: 10px; /* Add border radius */
+    margin-right: 5px; /* Add margin */
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #FFFFFF; /* Set footer background color */
+    position: fixed; /* Fixed position */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none; /* Remove border */
+    color: #000000; /* Set footer text color */
+}
+/* Budget styles */
+.Budget,
+.Account {
+    border: none; /* Remove border */
+    margin-bottom: 20px; /* Add margin */
+}
+
+/* Budget balance styles */
+.total-earned,
+.total-spent {
+    border-top: none; /* Remove top border */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Account styles */
+.account-info {
+    padding: 10px;
+}
+
+.account-info > div {
+    margin-bottom: 10px; /* Add margin between sections */
+}
+
+/* Account styles */
+.account-detail {
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin between sections */
+}
+
+/* Budget styles */
+.budget-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin between sections */
+}
+
+.budget-details > div {
+    margin-bottom: 0; /* Remove margin between title and value */
+}
+/* Transaction Details container styles */
+.Transaction_Details,
+.Insights {
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    background-color: #FFFFFF; /* Set container background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    text-align: center; /* Center the content */
+}
+
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+    /* Add left and right padding of 10% */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Content styles */
+.content {
+    margin-left: auto; /* Center content */
+    margin-right: auto; /* Center content */
+    max-width: 80%; /* 80% of the available width after padding */
+}
+
+/* Transaction Details container styles */
+.Transaction_Details,
+.Budget,
+.Insights,
+.Account {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}

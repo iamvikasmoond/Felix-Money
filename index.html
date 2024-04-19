@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verve</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <div class="sidebar">
+        <div class="logo">Verve</div>
+        <ul class="menu">
+            <ul class="menu">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="budget">Budget</a></li>
+                <li><a href="#" id="insights">Insights</a></li>
+                <li><a href="#" id="account">Account</a></li>
+                <li><a href="#" id="about">About</a></li>
+                <li><a href="#"id="working">Working</a></li>
+                <li><a href="#" id="policy">Policy</a></li>
+                <li><a href="#" id="help">Help</a></li>
+                <li><a href="#" id="developer">Developer</a></li>
+                <li><a href="#" id="admin">Admin</a></li>
+            </ul>
+            
+        </ul>
+        <footer class="footer">
+            <div class="footer-content">
+                <span>© Created by Vikas Moond (229310091)</span>
+            </div>
+        </footer>
+    </div>     -->
+    <div class="content">
+        <div class="Transaction_Details">
+            <div class="container"> 
+                <h2>Transaction Details</h2>
+                <div class="transaction-tracker-container">
+                    <div class="transaction-tracker">
+                        <form id="transaction-form"> 
+                            <input type="text" 
+                                   id="transaction-name" 
+                                   placeholder="Enter Transaction Name" style="width: 50%;" required /> 
+                            <input type="number" 
+                                   id="transaction-amount" 
+                                   placeholder="Amount in Rupees" style="width: 25%;" required /> 
+                            <button type="button" id="income-btn" style="width: 25%; background-color: #90D26D; border-radius: 8px;"> 
+                                Income
+                            </button> 
+                            <button type="button" id="expense-btn" style="width: 25%; background-color: #FF6464; border-radius: 8px;"> 
+                                Expense
+                            </button>
+                        </form> 
+                        <div class="transaction-table"> 
+                            <table> 
+                                <thead> 
+                                    <tr> 
+                                        <th>Transaction Name</th> 
+                                        <th>Amount (₹)</th> 
+                                        <th>Date</th>
+                                        <th>Action</th> 
+                                    </tr> 
+                                </thead> 
+                                <tbody id="transaction-list"></tbody> 
+                            </table> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Budget">
+            <div class="container"> 
+                <h2>Budget</h2>
+                <div class="budget-details">
+                    <div class="budget-title">Total Earned:</div>
+                    <div class="total-earned">₹0</div>
+                </div>
+                <div class="budget-details">
+                    <div class="budget-title">Total Spent:</div>
+                    <div class="total-spent">₹0</div>
+                </div>
+                <div class="budget-details">
+                    <div class="budget-title">Available Balance:</div>
+                    <div class="available-balance">₹0</div>
+                </div>
+            </div>
+        </div>        
+        <div class="Insights">
+            <div class="container"> 
+                <h2>Insights</h2>
+                <canvas id="myChart" width="400" height="200"></canvas>
+                <div class="chart-axis">
+                    <span>X-Axis: Time</span>
+                    <span>Y-Axis: Money (₹)</span>
+                </div>
+            </div>
+        </div>
+        <div class="Account">
+            <div class="container"> 
+                <h2>Account</h2>
+                <div class="account-detail">
+                    <span class="account-title">Full Name:</span>
+                    <span>Vikas Moond</span>
+                </div>
+                <div class="account-detail">
+                    <span class="account-title">Account Number:</span>
+                    <span>XXXXXXXXXXXX7118</span>
+                </div>
+                <div class="account-detail">
+                    <span class="account-title">UPI ID:</span>
+                    <span>8107327822@verve</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="JavaScript/Chart.js"></script>
+</body>
+</html>

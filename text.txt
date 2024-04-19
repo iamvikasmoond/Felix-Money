@@ -1,0 +1,45 @@
+
+        <div class="Budget">
+            <div class="container"> 
+                <h2>Budget</h2>
+                <div class="budget-balances">
+                    <div class="total-earned">
+                        <span>Total Earned:</span>
+                        <span id="total-earned">₹0</span>
+                    </div>
+                    <div class="total-spent">
+                        <span>Total Spent:</span>
+                        <span id="total-spent">₹0</span>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="Insights">
+            <div class="container"> 
+                <h2>Insights</h2>
+                <canvas id="myChart" width="400" height="200"></canvas>
+                <div class="chart-axis">
+                    <span>X-Axis: Time</span>
+                    <span>Y-Axis: Money (₹)</span>
+                </div>
+            </div>
+        </div>
+        <div class="Account">
+            <div class="container"> 
+                <h2>Account</h2>
+                <div class="account-info">
+                    <div class="full-name">
+                        <span>Full Name:</span>
+                        <span>John Doe</span>
+                    </div>
+                    <div class="account-number">
+                        <span>Account Number:</span>
+                        <span>XXXXXXXXXXXX1234</span>
+                    </div>
+                    <div class="upi-id">
+                        <span>UPI ID:</span>
+                        <span>9876543210@verve</span>
+                    </div>
+                </div>
+            </div>
+        </div>
